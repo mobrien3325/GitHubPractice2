@@ -10,7 +10,7 @@ import UIKit
 class SecondViewController: UIViewController {
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
-    var animal = ""
+    var animal: String = ""
     override func viewDidLoad() {
         super.viewDidLoad()
         nameLabel.text = animal
