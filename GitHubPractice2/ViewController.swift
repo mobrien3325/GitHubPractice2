@@ -24,5 +24,12 @@ class ViewController: UIViewController , UITableViewDataSource {
         cell.textLabel?.text = "\(animals[indexPath.row])"
         return cell
     }
+    
+    
+    
+    
+    
+    
+    
 }
 
