@@ -44,6 +44,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="XLH-bZ-cGb"/>
+                    <connections>
+                        <outlet property="tableView" destination="A9b-Q9-A1h" id="b6O-vk-pYz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -80,6 +83,10 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="din-YW-KXc"/>
+                    <connections>
+                        <outlet property="imageView" destination="mWP-nF-IGb" id="TIP-9e-mbC"/>
+                        <outlet property="nameLabel" destination="N04-NW-h4W" id="VC8-P4-jKc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fZX-cE-d04" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

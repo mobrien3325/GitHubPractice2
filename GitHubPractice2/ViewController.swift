@@ -24,7 +24,11 @@ class ViewController: UIViewController , UITableViewDataSource {
         cell.textLabel?.text = "\(animals[indexPath.row])"
         return cell
     }
-    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let nvc = segue.destination as! SecondViewController
+        guard let selectedRow = tableView.indexPathForSelectedRow?.row else {return}
+        nvc.animal = "\(animals[selectedRow])"
+    }
     
     
     
