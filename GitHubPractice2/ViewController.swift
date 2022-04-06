@@ -11,7 +11,6 @@ class ViewController: UIViewController , UITableViewDataSource {
 
     @IBOutlet weak var tableView: UITableView!
     let animals = ["Wolf","Bear","Bird"]
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.dataSource = self
